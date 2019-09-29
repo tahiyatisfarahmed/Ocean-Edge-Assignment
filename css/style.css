@@ -3,6 +3,83 @@
 	padding: 0;
 }
 
+/*Navigation Start*/
+.navigation{
+	overflow: hidden;
+	position: fixed;
+    right: 100px;
+	
+	 
+}
+.client{
+	height: 50px;
+	width: 190px;
+	background-color: white;
+	float:left;
+	overflow: hidden;
+	transition: 1s;
+}
+
+.client:hover {
+	cursor: pointer;
+	color: white;
+	background-color: grey;
+}
+
+.client img{
+    width: 16px;
+    padding-top: 17px;
+    padding-left: 20px;
+    float: left;
+}
+
+.client span h1{
+    font-family: arial;
+    font-weight: 100;
+    font-size: 16px;
+    float: left;
+    padding-top: 18px;
+    padding-left: 5px;
+}
+
+.employee{
+	height: 50px;
+	width: 190px;
+	background-color: #0078BD;
+	float: left;
+	overflow: hidden;
+	transition: 1s;
+}
+
+.employee{
+    overflow: hidden;
+}
+
+
+.employee:hover{
+	cursor: pointer;
+	color: white;
+	background-color: grey;
+}
+
+.employee img{
+    width: 16px;
+    padding-top: 17px;
+    padding-left: 12px;
+    float: left;
+}
+
+.employee span h1{
+    font-family: arial;
+    font-weight: 100;
+    font-size: 16px;
+    float: left;
+    padding-top: 18px;
+    padding-left: 5px;
+    color: white;
+}
+/*Navigation End*/
+
 /*header start*/
 header {
 	background-color:#121B2A;
@@ -68,6 +145,7 @@ header {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center; 
+	background-attachment: fixed;
 }
 
 .banner-content {
@@ -287,6 +365,7 @@ header {
     color: #B4B5B9;
     font-size: 13px;
     line-height: 1.5;
+    margin-left: 20px;
 	}
 	.rhoda-worku p span{
     font-weight: bolder;
